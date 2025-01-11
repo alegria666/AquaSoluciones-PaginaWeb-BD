@@ -37,7 +37,7 @@ Para ejecutar correctamente el proyecto, se necesita:
 3. **Acceder a la aplicación**:
    - Abre tu navegador y accede a:
    ```
-   http://localhost/aquasoluciones
+   http://localhost/AquaSoluciones-PaginaWeb-BD
    ```
 
 ## Tecnologías utilizadas
