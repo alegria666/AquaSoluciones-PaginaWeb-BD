@@ -11,7 +11,7 @@ Aquasoluciones es una plataforma para gestionar servicios relacionados con la di
 
 ### Gestión de información
 - Sistema de registro administrativo implementado en PHP.
-- Base de datos MySQL para almacenar datos esenciales de la empresa.
+- Base de datos PostgreSQL para almacenar datos esenciales de la empresa.
 
 ### Estructura organizada
 - Separación de archivos CSS, JS y multimedia para un mantenimiento eficiente.
@@ -21,18 +21,18 @@ Aquasoluciones es una plataforma para gestionar servicios relacionados con la di
 
 Para ejecutar correctamente el proyecto, se necesita:
 
-- **XAMPP** con el módulo Apache y MySQL habilitados.
+- **XAMPP** con el módulo Apache y PostgreSQL habilitados.
 - Un navegador web compatible con HTML5, CSS3 y JavaScript.
 
 ## Instalación y configuración
 
 1. **Instalar XAMPP**:
    - Descarga e instala XAMPP.
-   - Asegúrate de que los módulos Apache y MySQL estén activos.
+   - Asegúrate de que los módulos Apache y PostgreSQL estén activos.
 
 2. **Configurar el proyecto**:
    - Descarga o clona este repositorio en la carpeta `htdocs` de XAMPP.
-   - Importa el archivo SQL ubicado en `aquasoluciones/aquasoluciones.sql` desde phpMyAdmin para crear la base de datos necesaria.
+   - Importa el archivo SQL ubicado en `AquaSoluciones-PaginaWeb-BD/aquasoluciones.sql` desde phpMyAdmin para crear la base de datos necesaria.
 
 3. **Acceder a la aplicación**:
    - Abre tu navegador y accede a:
@@ -51,11 +51,11 @@ Para ejecutar correctamente el proyecto, se necesita:
 - **PHP 7.x** para la lógica del registro y conexión con la base de datos.
 
 ### Base de datos
-- **MySQL** con un archivo `.sql` para configuración inicial.
+- **PostgreSQL** con un archivo `.sql` para configuración inicial.
 
 ## Estructura del proyecto
 ```
-aquasoluciones/
+AquaSoluciones-PaginaWeb-BD/
 ├── acerca.html              # Página de "Acerca de"
 ├── inicio.html              # Página principal
 ├── servicios.html           # Página de servicios
