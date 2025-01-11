@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Se necesita clave</title>
+    <script>
+    function solicitarClave() {
+        while (true) {
+            var pal = prompt('Introduce la clave para ingresar como Administrador', '');
+
+            // Verificar si el usuario hizo clic en "Cancelar" o cerró el cuadro de diálogo
+            if (pal === null) {
+                // Redirigir a la página de inicio
+                window.location = 'inicio.html';
+                break;
+            }
+
+            // Verificar si la contraseña es la correcta
+            if (pal === 'registroadmin') {
+                window.location = pal + ".php";
+                break; // Salir del bucle si la contraseña es correcta
+            } else {
+                alert('Clave incorrecta. Inténtalo de nuevo.'); // Mostrar mensaje de error
+            }
+        }
+    }
+    </script>
+</head>
+<body onload="solicitarClave()">
+    <p>Autenticación de Registro.</p>
+</body>
+</html>
+
+
